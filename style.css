@@ -4,7 +4,6 @@
 }
 body{
     background-color: hsl(210, 46%, 95%);
-    overflow: hidden;
 }
 
 main{
@@ -15,8 +14,8 @@ main{
 section{
     font-family: 'Manrope';
     border-radius: 10px;
-    max-width: 55rem;
-    min-height: 20rem;
+    max-width: 50rem;
+    min-height: 17rem;
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -59,6 +58,7 @@ section .infoSide .profileShare{
 .profileShare .detail h2{
     color: hsl(214, 17%, 51%);
     width: 12rem;
+    font-size: 1rem;
 }
 
 .profileShare .share{
